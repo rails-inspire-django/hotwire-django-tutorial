@@ -18,22 +18,51 @@ const sidebars = {
 
   // But you can create a sidebar manually
   tutorialSidebar: [
-    "README",
+    'README',
 
-    "01/create_project",
-    "01/install_turbo",
-    "01/create_task_app",
-    "01/render_form",
-    "01/explore_turbo_drive_1",
-    "01/explore_turbo_drive_2",
-    "01/turbo_drive_with_form",
+    {
+      type: 'category',
+      label: 'Part 1: Turbo Drive',
+      collapsible: true,
+      collapsed: false,
+      items: [
+        "01/create_project",
+        "01/install_turbo",
+        "01/create_task_app",
+        "01/render_form",
+        "01/explore_turbo_drive_1",
+        "01/turbo_drive_with_form",
+      ],
+    },
 
-    "03/preparation",
-    "03/stimulus_controller",
-    "03/stimulus_controller_2",
-    "03/stimulus_controller_3",
-    "03/stimulus_controller_date_picker",
-    "03/stimulus_form_controller",
+    {
+      type: 'category',
+      label: 'Part 2: Turbo Frame',
+      collapsible: true,
+      collapsed: false,
+      items: [
+        "02/preparation",
+        "02/turbo_frame_basic",
+        "02/turbo_frame_2",
+        "02/turbo_frame_3",
+      ],
+    },
+
+    {
+      type: 'category',
+      label: 'Part 3: Stimulus',
+      collapsible: true,
+      collapsed: false,
+      items: [
+        "03/preparation",
+        "03/stimulus_controller",
+        "03/stimulus_controller_2",
+        "03/stimulus_controller_3",
+        "03/stimulus_controller_date_picker",
+        "03/stimulus_form_controller",
+      ],
+    },
+
   ],
 };
 
