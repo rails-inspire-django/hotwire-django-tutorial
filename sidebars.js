@@ -69,6 +69,7 @@ const sidebars = {
       collapsible: true,
       collapsed: false,
       items: [
+        "04/components",
         "04/click_load",
         "04/auto_load",
         "04/click_edit",
