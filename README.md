@@ -1,41 +1,16 @@
-# Website
+# README
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+This open source book is to help Django developers to learn **Hotwire**
 
-### Installation
+> Hotwire is an alternative approach to building modern web applications without using much JavaScript by sending HTML instead of JSON over the wire.
 
-```
-$ yarn
-```
+Below are some popular websites built by Hotwire:
 
-### Local Development
+1. Github (https://github.com/), Github is built using Turbo and Catalyst (A tech inspired by Stimulus)
+2. Hey (https://hey.com/)
+3. Basecamp (https://basecamp.com/)
+4. Forem (https://github.com/forem/forem): Forem is an open-source platform for building online communities, [dev.to](https://dev.to/) is built using Forem.
+ 
+Here is the [Hotwire official doc](https://hotwire.dev/)
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+If you want to learn more advanced stuff, please check my book [The Definitive Guide to Hotwire and Django](https://leanpub.com/hotwire-django)

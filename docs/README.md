@@ -1,17 +1,25 @@
 # Introduction
 
-## What is Hotwire
+![](./images/hotwire.png)
 
-Hotwire (HTML OVER THE WIRE) is an alternative approach to building modern web applications without using much JavaScript by sending HTML instead of JSON over the wire.
+## About this book
 
-1. It is built by Basecamp (it powers the HEY email service).
-1. It has a healthy ecosystem, and there are many relevant projects, tutorials about it.
-1. It has become the default frontend solution in Rails.
-1. It is also very popular in the PHP community (Laravel, Symfony).
+This open source book is to help Django developers to learn **Hotwire**
+
+> Hotwire is an alternative approach to building modern web applications without using much JavaScript by sending HTML instead of JSON over the wire.
+
+Below are some popular websites built by Hotwire:
+
+1. Github (https://github.com/), Github is built using Turbo and Catalyst (A tech inspired by Stimulus)
+2. Hey (https://hey.com/)
+3. Basecamp (https://basecamp.com/)
+4. Forem (https://github.com/forem/forem): Forem is an open-source platform for building online communities, [dev.to](https://dev.to/) is built using Forem.
+
+Hotwire has become the default frontend solution in Rails, and it is also very popular in the PHP community (Laravel, Symfony).
+
+For now, there is no good content about Hotwire in Django community, so I decided to publish this book to help the community.
 
 ## Objectives
-
-This **open source** eBook is to help developers to quickly learn basic concepts of Hotwire, while making it work with Django.
 
 By the end of this book, you will be able to:
 
@@ -32,9 +40,13 @@ With Hotwire, we can bring `SPA-like experience` to our Django web app:
 
 ## Support
 
-All the chapters of this **FREE** ebook come from [The Definitive Guide to Hotwire and Django](https://leanpub.com/hotwire-django)
+:::info
 
-If you are interested in Hotwire and want to learn more, please consider buying the book.
+All the content of this **FREE** ebook come from [The Definitive Guide to Hotwire and Django](https://leanpub.com/hotwire-django)
+
+If you are interested in Hotwire and want to learn more advanced stuff, please consider buying the book.
+
+:::
 
 ## Questions
 

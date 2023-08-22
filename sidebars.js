@@ -63,6 +63,28 @@ const sidebars = {
       ],
     },
 
+    {
+      type: 'category',
+      label: 'Part 4: UI Examples',
+      collapsible: true,
+      collapsed: false,
+      items: [
+        "04/click_load",
+        "04/auto_load",
+        "04/click_edit",
+        "04/click_delete",
+        "04/form_validation",
+        "04/type_search",
+        "04/progress_bar",
+        "04/infinite_scroll",
+        "04/file_upload",
+        "04/confirm",
+        "04/sortable",
+        "04/bulk_operation",
+        "04/cascading_selects",
+      ],
+    },
+
   ],
 };
 
