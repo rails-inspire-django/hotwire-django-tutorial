@@ -4,20 +4,20 @@
 
 ## About this book
 
-This open source book is to help Django developers to learn **Hotwire**
+This open source book (Hotwire Django Tutorial) is to help Django developers to learn **Hotwire**
 
 > Hotwire is an alternative approach to building modern web applications without using much JavaScript by sending HTML instead of JSON over the wire.
 
 Below are some popular websites built by Hotwire:
 
 1. Github (https://github.com/), Github is built using Turbo and Catalyst (A tech inspired by Stimulus)
-2. Hey (https://hey.com/)
-3. Basecamp (https://basecamp.com/)
+2. Hey (https://hey.com/), Hey is an email service and productivity platform that aims to revolutionize the way people manage their email
+3. Basecamp (https://basecamp.com/), Basecamp is a project management and collaboration tool designed to help teams stay organized and work together effectively
 4. Forem (https://github.com/forem/forem): Forem is an open-source platform for building online communities, [dev.to](https://dev.to/) is built using Forem.
 
-Hotwire has become the default frontend solution in Rails, and it is also very popular in the PHP community (Laravel, Symfony).
+Hotwire has become the default frontend solution in `Rails`, and it is also very popular in the `PHP` community (`Laravel`, `Symfony`).
 
-For now, there is no good content about Hotwire in Django community, so I decided to publish this book to help the community.
+For now, there is no good content about Hotwire in the Django community, so I decided to publish this book to help the developers.
 
 ## Objectives
 
@@ -31,6 +31,7 @@ By the end of this book, you will be able to:
 1. Learn what is `Stimulus` and how `Stimulus Controller` work.
 1. What are Stimulus `Values`, `Targes`, and `Actions`
 1. Use Stimulus to build a Datetime picker and improve the form submission process.
+3. Learn about 15 UI examples (`inline editing`, `Type as Search`, `Form Validation`, etc.), which can help you solve the UI interaction problem in many cases.
 
 With Hotwire, we can bring `SPA-like experience` to our Django web app:
 
@@ -54,4 +55,4 @@ If you have any questions, please feel free to [open an issue](https://github.co
 
 ## Contact
 
-If you want to talk with the author MichaelYIn, you can [contact him here](https://saashammer.com/contact/)
+If you want to talk with the author Michael YIn, you can [follow me on Twitter](https://twitter.com/michaelyinplus)
