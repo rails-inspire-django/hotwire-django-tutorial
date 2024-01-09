@@ -2,6 +2,8 @@
 
 This open source book is to help Django developers to learn **Hotwire**
 
+👉 [Read the book online](https://tutorial.saashammer.com/)
+
 > Hotwire is an alternative approach to building modern web applications without using much JavaScript by sending HTML instead of JSON over the wire.
 
 Below are some popular websites built by Hotwire:
