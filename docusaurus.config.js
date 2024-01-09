@@ -106,7 +106,7 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://github.com/hotwire-django/hotwire-django-tutorial',
+            href: 'https://github.com/rails-inspire-django/hotwire-django-tutorial',
             label: 'GitHub',
             position: 'right',
           },

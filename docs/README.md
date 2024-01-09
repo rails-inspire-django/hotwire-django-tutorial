@@ -51,7 +51,7 @@ If you are interested in Hotwire and want to learn more advanced stuff, please c
 
 ## Questions
 
-If you have any questions, please feel free to [open an issue](https://github.com/hotwire-django/hotwire-django-tutorial/issues)
+If you have any questions, please feel free to [open an issue](https://github.com/rails-inspire-django/hotwire-django-tutorial/issues)
 
 ## Contact
 
