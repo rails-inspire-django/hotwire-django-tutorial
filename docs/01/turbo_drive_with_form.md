@@ -22,7 +22,7 @@ More details can be found on [https://turbo.hotwired.dev/handbook/drive#redirect
 
 :::info
 
-In django-turbo-helper 4.1.2, this issue has been solved with `turbo_helper.middleware.TurboMiddleware`, please check [https://django-turbo-helper.readthedocs.io/en/latest/form-submission.html](https://django-turbo-helper.readthedocs.io/en/latest/form-submission.html)
+In django-turbo-helper 2.1.4, this issue has been solved with `turbo_helper.middleware.TurboMiddleware`, please check [https://django-turbo-helper.readthedocs.io/en/latest/form-submission.html](https://django-turbo-helper.readthedocs.io/en/latest/form-submission.html)
 
 :::
 
