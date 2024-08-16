@@ -20,6 +20,12 @@ In Turbo, we need to return `422 Unprocessable Entity` status code so Turbo can 
 
 More details can be found on [https://turbo.hotwired.dev/handbook/drive#redirecting-after-a-form-submission](https://turbo.hotwired.dev/handbook/drive#redirecting-after-a-form-submission)
 
+:::info
+
+In django-turbo-helper 4.1.2, this issue has been solved with `turbo_helper.middleware.TurboMiddleware`, please check [https://django-turbo-helper.readthedocs.io/en/latest/form-submission.html](https://django-turbo-helper.readthedocs.io/en/latest/form-submission.html)
+
+:::
+
 **In Django, by default, `form validation fail` response still has `200` status code, so we should update the code to return `422` status code instead.**
 
 ## View
