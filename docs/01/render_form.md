@@ -218,6 +218,8 @@ Hmm, the form style looks much better, let's keep improving it.
 
 > crispy-tailwind is a Tailwind template pack for django-crispy-forms
 
+** UPDATE: `crispy-tailwind` is not recommended anymore, please check [django-formify](https://github.com/rails-inspire-django/django-formify), which seamlessly integrates Tailwind CSS styles into your Django forms for a modern look. **
+
 Update *requirements.txt*
 
 ```
